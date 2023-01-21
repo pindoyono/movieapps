@@ -1,4 +1,4 @@
-@extends('layouts.app2')
+@extends('layouts.app')
 
 @section('content')
     <h3 class="text-3xl font-medium text-gray-700">Dashboard</h3>

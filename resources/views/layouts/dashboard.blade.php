@@ -25,11 +25,14 @@
 </head>
 
 <body>
+    <x-jet.banner />
     <div x-data="{ sidebarOpen: false }" class="flex h-screen bg-gray-200 font-roboto">
-        @include('layouts.sidebar')
-
+        {{-- @include('layouts.sidebar') --}}
+        <x-sidebar />
         <div class="flex flex-col flex-1 overflow-hidden">
-            @include('layouts.header')
+            {{-- @include('layouts.header') --}}
+            <x-header />
+
 
             <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-200">
                 <div class="container px-6 py-8 mx-auto">
